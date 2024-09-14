@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """100-lfu_cache"""
 from base_caching import BaseCaching
@@ -39,4 +38,3 @@ class LFUCache(BaseCaching):
             return
         self.uses[key] += 1
         return self.cache_data.get(key)
-
